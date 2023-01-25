@@ -32,7 +32,7 @@ const Home = () => {
                   <img src={`https://image.tmdb.org/t/p/original${movie && movie.backdrop_path}`} alt="images"/>
                 </div>
                 <div className="posterImage__overlay">
-                  <div className="posterImage__title">{movie ? movie.original : ""}</div>
+                  <div className="posterImage__title">{movie ? movie.original_title : ""}</div>
                   <div className='posterImage__runtime'>
                     {movie ? movie.release_date : ""}
                     <span className="posterImage__rating">

@@ -6,7 +6,7 @@ import Cards from "../card/card"
 const MovieList = () => {
     
     const [movieList, setMovieList] = useState([])
-    const {type} = useParams()
+    const { type } = useParams()
 
     useEffect(() => {
         getData()
